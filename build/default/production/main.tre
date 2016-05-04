@@ -1,0 +1,5 @@
+ÀÄTest BüP PIAL
+   ÀÄMAIN  0/59  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@I2C_WRITEU_1  0/18  Ram=1
+      ÀÄ@I2C_READU_1  0/18  Ram=1

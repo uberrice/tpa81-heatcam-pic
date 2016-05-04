@@ -1,0 +1,6 @@
+C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:32:1:  Warning#203  Condition always TRUE
+C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:24:7:  Warning#202  Variable never used:   TPA81_ID
+C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:25:17:  Warning#202  Variable never used:   servo
+      Memory usage:   ROM=1%      RAM=7% - 7%
+      0 Errors,  3 Warnings.
+Build Successful.
