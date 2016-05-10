@@ -30,12 +30,12 @@ ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 IMAGE_TYPE=debug
 OUTPUT_SUFFIX=cof
 DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 else
 IMAGE_TYPE=production
 OUTPUT_SUFFIX=hex
 DEBUGGABLE_SUFFIX=cof
-FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+FINAL_IMAGE=dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 endif
 
 # Object Directory
@@ -75,7 +75,7 @@ FIXDEPS=fixDeps
 ifneq ($(INFORMATION_MESSAGE), )
 	@echo $(INFORMATION_MESSAGE)
 endif
-	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
 MP_CC="C:\PROGRA~2\MICROC~1\PICC\CCSCON.exe"
 MP_LD="C:\PROGRA~2\MICROC~1\PICC\CCSCON.exe"
@@ -87,8 +87,8 @@ ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 ifeq (1,1) 
 	${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
 	${MP_CC}  out="${OBJECTDIR}"  main.c +FM +DF +CC  #__DEBUG=1 +ICD +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P #__16F877=1 
-	@mv ${OBJECTDIR}/main.cof "dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.cof" 
-	@mv ${OBJECTDIR}/main.hex "dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.hex"
+	@mv ${OBJECTDIR}/main.cof "dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.cof" 
+	@mv ${OBJECTDIR}/main.hex "dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.hex"
 else 
 	${MP_CC}  out=""${OBJECTDIR}"" main.c +EXPORT +FM +DF +CC  #__DEBUG=1 +ICD +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P #__16F877=1 +EXPORTD="${OBJECTDIR}"  
 	
@@ -100,8 +100,8 @@ ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 ifeq (1,1) 
 	${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
 	${MP_CC}  out="${OBJECTDIR}"  main.c +FM +DF +CC +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P #__16F877=1 
-	@mv ${OBJECTDIR}/main.cof "dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.cof" 
-	@mv ${OBJECTDIR}/main.hex "dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.hex"
+	@mv ${OBJECTDIR}/main.cof "dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.cof" 
+	@mv ${OBJECTDIR}/main.hex "dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.hex"
 else 
 	${MP_CC}  out=""${OBJECTDIR}"" main.c +EXPORT +FM +DF +CC +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P #__16F877=1 +EXPORTD="${OBJECTDIR}"  
 	
@@ -112,22 +112,22 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: link
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
+dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
 ifeq (1,1) 
 	
 else 
-	${MP_LD}   out="dist/${CND_CONF}/${IMAGE_TYPE}"  +FM +DF +CC LINK=Test_B_P_PIAL.X.${IMAGE_TYPE}.hex=${OBJECTDIR}/main.o +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P
+	${MP_LD}   out="dist/${CND_CONF}/${IMAGE_TYPE}"  +FM +DF +CC LINK=B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.hex=${OBJECTDIR}/main.o +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P
 	
 endif 
 	
 else
-dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
+dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
 	${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
 ifeq (1,1) 
 	
 else 
-	${MP_LD}   out="dist/${CND_CONF}/${IMAGE_TYPE}"  +FM +DF +CC LINK=Test_B_P_PIAL.X.${IMAGE_TYPE}.hex=${OBJECTDIR}/main.o +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P
+	${MP_LD}   out="dist/${CND_CONF}/${IMAGE_TYPE}"  +FM +DF +CC LINK=B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.hex=${OBJECTDIR}/main.o +Y=9 +EA +DF +LN +T +A +M +J +EA +Z -P
 	
 endif 
 	

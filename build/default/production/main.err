@@ -1,6 +1,7 @@
-C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:32:1:  Warning#203  Condition always TRUE
-C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:24:7:  Warning#202  Variable never used:   TPA81_ID
-C:\_Daten\BüP\PIC Project Files\Test BüP PIAL.X\main.c:25:17:  Warning#202  Variable never used:   servo
-      Memory usage:   ROM=1%      RAM=7% - 7%
-      0 Errors,  3 Warnings.
+H:\BüP\PIC Project Files\BüP Version 2 (aktuell) PIAL.X\main.c:177:1:  Warning#203  Condition always TRUE
+H:\BüP\PIC Project Files\BüP Version 2 (aktuell) PIAL.X\main.c:181:1:  Warning#203  Condition always TRUE
+H:\BüP\PIC Project Files\BüP Version 2 (aktuell) PIAL.X\main.c:78:7:  Warning#202  Variable never used:   TPA81_ID
+H:\BüP\PIC Project Files\BüP Version 2 (aktuell) PIAL.X\main.c:107:6:  Warning#202  Variable never used:   colordata
+      Memory usage:   ROM=8%      RAM=22% - 24%
+      0 Errors,  4 Warnings.
 Build Successful.

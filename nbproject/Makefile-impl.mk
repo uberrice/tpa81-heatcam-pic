@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Test BüP PIAL.X
+PROJECTNAME=BüP Version 2 (aktuell) PIAL.X
 
 # Active Configuration
 DEFAULTCONF=default

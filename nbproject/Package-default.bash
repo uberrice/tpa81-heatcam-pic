@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=Test_B_P_PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=testbüppial.x/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=B_P_Version_2__aktuell__PIAL.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=büpversion2(aktuell)pial.x/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/testbüppial.x/bin
+makeDirectory ${TMPDIR}/büpversion2(aktuell)pial.x/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/testbüppial.x.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/büpversion2(aktuell)pial.x.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/testbüppial.x.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/büpversion2(aktuell)pial.x.tar *
 checkReturnCode
 
 # Cleanup
